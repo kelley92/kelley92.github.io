@@ -1,112 +1,113 @@
 /* General Reset */
 body {
-  margin: 0;
-  font-family: 'Arial', sans-serif;
-  color: #333;
-  background-color: #f8f9fa;
-}
-
-/* Header and Navigation Bar */
-.nav-bar {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  background-color: #0077cc;
-  padding: 1rem 2rem;
-  color: white;
-}
-
-.nav-bar h1 {
-  margin: 0;
-  font-size: 1.5rem;
-}
-
-.nav-bar ul {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-  display: flex;
-}
-
-.nav-bar li {
-  margin-left: 1.5rem;
-}
-
-.nav-bar a {
-  text-decoration: none;
-  color: white;
-  font-size: 1rem;
-}
-
-/* Profile Section */
-.profile {
-  display: flex;
-  align-items: flex-start;
-  padding: 2rem;
-  background: #ffffff;
-  margin: 2rem auto;
-  max-width: 1200px;
-  border-radius: 8px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-}
-
-.profile-image img {
-  width: 25%;
-  border-radius: 8px;
-  margin-right: 2rem;
-}
-
-.about-me {
-  flex: 1;
-}
-
-.about-me h2 {
-  margin-top: 0;
-  color: #0077cc;
-}
-
-.about-me p {
-  line-height: 1.6;
-  font-size: 1rem;
-}
-
-/* External Links Section */
-.external-links {
-  padding: 1rem 2rem;
-  background: #ffffff;
-  max-width: 1200px;
-  margin: 2rem auto;
-  border-radius: 8px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-}
-
-.external-links h3 {
-  color: #0077cc;
-}
-
-.external-links ul {
-  list-style: none;
-  padding: 0;
-}
-
-.external-links li {
-  margin: 0.5rem 0;
-}
-
-.external-links a {
-  text-decoration: none;
-  color: #0077cc;
-}
-
-.external-links a:hover {
-  text-decoration: underline;
-}
-
-/* Footer */
-footer {
-  text-align: center;
-  padding: 1rem;
-  background: #333;
-  color: white;
-  margin-top: 2rem;
-}
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    color: #333;
+    background-color: #f8f9fa;
+  }
+  
+  /* Header and Navigation Bar */
+  .nav-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #0077cc;
+    padding: 1rem 2rem;
+    color: white;
+  }
+  
+  .nav-bar h1 {
+    margin: 0;
+    font-size: 1.5rem;
+  }
+  
+  .nav-bar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  .nav-bar li {
+    margin-left: 1.5rem;
+  }
+  
+  .nav-bar a {
+    text-decoration: none;
+    color: white;
+    font-size: 1rem;
+  }
+  
+  /* Profile Section */
+  .profile {
+    display: flex;
+    align-items: flex-start;
+    padding: 2rem;
+    background: #ffffff;
+    margin: 2rem auto;
+    max-width: 1200px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .profile-image img {
+    width: 25%;
+    border-radius: 8px;
+    margin-right: 2rem;
+  }
+  
+  .about-me {
+    width: 75%;
+  }
+  
+  .about-me h2 {
+    margin-top: 0;
+    color: #0077cc;
+  }
+  
+  .about-me p {
+    line-height: 1.6;
+    font-size: 1rem;
+  }
+  
+  /* External Links Section */
+  .external-links {
+    padding: 1rem 2rem;
+    background: #ffffff;
+    max-width: 1200px;
+    margin: 2rem auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .external-links h3 {
+    color: #0077cc;
+  }
+  
+  .external-links ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .external-links li {
+    margin: 0.5rem 0;
+  }
+  
+  .external-links a {
+    text-decoration: none;
+    color: #0077cc;
+  }
+  
+  .external-links a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Footer */
+  footer {
+    text-align: center;
+    padding: 1rem;
+    background: #333;
+    color: white;
+    margin-top: 2rem;
+  }
+  
