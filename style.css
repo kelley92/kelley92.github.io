@@ -115,3 +115,11 @@ body {
     margin-top: 2rem;
   }
   
+  .publications ol {
+    padding-left: 20px;
+    line-height: 1.8;
+  }
+  .publications li {
+    margin-bottom: 15px;
+  }
+  
