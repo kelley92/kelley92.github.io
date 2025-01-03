@@ -193,6 +193,23 @@ body {
     max-width: 100%;
     height: auto; /* Ensures the image scales proportionally */
   }
+
+  .big-fig {
+    display: flex;
+    justify-content: space-between; /* Adds space between the two figures */
+    gap: 5%; /* Optional: adjusts spacing between figures */
+    margin: 20px auto;
+  }
+  
+  .big-fig figure {
+    width: 95%; /* Each figure takes up 45% of the available width */
+    text-align: center;
+  }
+  
+  .big-fig img {
+    max-width: 100%;
+    height: auto; /* Ensures the image scales proportionally */
+  }
   
   figcaption {
     font-size: 0.9rem;
