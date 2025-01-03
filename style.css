@@ -50,6 +50,19 @@ body {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     gap: 2rem; /* Adds consistent spacing between elements */
   }
+
+   /* Profile Section */
+   .research {
+    display: flex;
+    align-items: flex-start;
+    padding: 2rem;
+    background: #ffffff;
+    margin: 2rem auto;
+    max-width: 1200px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    gap: 2rem; /* Adds consistent spacing between elements */
+  }
   
   .profile-image {
     flex: 0 0 25%; /* Ensures the image container always takes 25% of the width */
