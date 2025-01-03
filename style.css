@@ -63,7 +63,19 @@ body {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     gap: 2rem; /* Adds consistent spacing between elements */
   }
-  
+
+  .publications {
+    display: flex;
+    align-items: flex-start;
+    padding: 2rem;
+    background: #ffffff;
+    margin: 2rem auto;
+    max-width: 1200px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    gap: 2rem; /* Adds consistent spacing between elements */
+  }
+
   .profile-image {
     flex: 0 0 25%; /* Ensures the image container always takes 25% of the width */
   }
@@ -83,6 +95,20 @@ body {
   }
   
   .about-me p {
+    line-height: 1.6;
+    font-size: 1rem;
+  }
+
+  .pub-list {
+    flex: 1; /* Ensures the About Me section takes the remaining 75% */
+  }
+  
+  .pub-list h2 {
+    margin-top: 0;
+    color: #0077cc;
+  }
+  
+  .pub-list p {
     line-height: 1.6;
     font-size: 1rem;
   }
@@ -142,11 +168,11 @@ body {
     margin-top: 2rem;
   }
   
-  .publications ol {
+  .pub-list ol {
     padding-left: 20px;
     line-height: 1.8;
   }
-  .publications li {
+  .pub-list li {
     margin-bottom: 1.5rem;
   }
   
@@ -158,7 +184,7 @@ body {
   }
   
   .figure-container figure {
-    width: 45%; /* Each figure takes up 45% of the available width */
+    width: 50%; /* Each figure takes up 45% of the available width */
     text-align: center;
   }
   
