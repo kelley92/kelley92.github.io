@@ -86,6 +86,16 @@ body {
     line-height: 1.6;
     font-size: 1rem;
   }
+
+  .research-interests h2 {
+    margin-top: 0;
+    color: #0077cc;
+  }
+  
+  .research-interests p {
+    line-height: 1.6;
+    font-size: 1rem;
+  }
   
   /* External Links Section */
   .external-links {
