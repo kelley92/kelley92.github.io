@@ -87,6 +87,10 @@ body {
     font-size: 1rem;
   }
 
+  .research-interests {
+    flex: 1; /* Ensures the About Me section takes the remaining 75% */
+  }
+
   .research-interests h2 {
     margin-top: 0;
     color: #0077cc;
