@@ -181,7 +181,7 @@ body {
     display: flex;
     justify-content: space-between; /* Adds space between the two figures */
     gap: 5%; /* Optional: adjusts spacing between figures */
-    margin: 20px auto;
+    margin: 5px auto;
   }
   
   .figure-container figure {
